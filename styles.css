@@ -3,6 +3,7 @@
 }
 body{
     font-family: 'Epilogue', sans-serif;
+    background-color: hsl(0, 0%, 98%);
 }
 .navbar{
     width: 100%;
@@ -63,6 +64,61 @@ body{
 }
 .nav{
     display: none;
+}
+.featuresDropdown{
+    width: 150px;
+    height: 180px;
+    z-index: 2;
+    position: absolute;
+    background-color:hsl(0, 0%, 98%);
+    border-radius: 16px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.3);
+    margin-top: 70px;
+    margin-left: 140px;
+    
+}
+.featuresDropdown{
+    width: 150px;
+    height: 180px;
+    z-index: 2;
+    position: absolute;
+    background-color:hsl(0, 0%, 98%);
+    border-radius: 16px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.3);
+    margin-top: 70px;
+    margin-left: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.dropdown{
+    padding: 10px 10px;
+}
+.companyDropdown{
+    width: 120px;
+    height: 150px;
+    z-index: 2;
+    position: absolute;
+    background-color:hsl(0, 0%, 98%);
+    border-radius: 16px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.3);
+    margin-top: 70px;
+    margin-left: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.clickDropdown{
+    display: none;
+    visibility: none;
+}
+.rotate{
+    transform: rotate(180deg);
+}
+
+.uparrow{
+    background-image: url(images/icon-arrow-up.svg);
 }
 
 
@@ -136,6 +192,12 @@ body{
 .mobile-sign2{
     padding-top: 15px;
     padding-left: 65px;
+}
+.featuresDropdown{
+    display: none;
+}
+.companyDropdown{
+    display: none;
 }
 
     
