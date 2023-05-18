@@ -23,20 +23,20 @@
     <span class="logo listItems ">snap</span>
     <ul class="headings">
       <li class="listItems">
-        <a href="#" style="text-decoration: none; color: hsl(0, 0%, 41%); " id="featuresBtn">Features <img
+        <a href="#" style="text-decoration: none; color: hsl(0, 0%, 41%); " id="featuresBtn"  class="Itemsdesk">Features <img
             src="images/icon-arrow-down.svg" alt="arrow" id="downarrow1"> </a>
       </li>
       <li class="listItems">
-        <a href="#" style="text-decoration: none; color: hsl(0, 0%, 41%); " id="companyBtn">Company 
+        <a href="#" style="text-decoration: none; color: hsl(0, 0%, 41%); " id="companyBtn" class="Itemsdesk" >Company 
           <img src="images/icon-arrow-down.svg" alt="arrow" id="downarrow2"></a>
 
       </li>
       <li class="listItems">
-        <a href="#" style="text-decoration: none; color: hsl(0, 0%, 41%); ">Careers</a>
+        <a href="#" style="text-decoration: none; color: hsl(0, 0%, 41%); " class="Itemsdesk">Careers</a>
 
       </li>
       <li class="listItems">
-        <a href="#" style="text-decoration: none; color: hsl(0, 0%, 41%); ">About</a>
+        <a href="#" style="text-decoration: none; color: hsl(0, 0%, 41%); " class="Itemsdesk">About</a>
       </li>
       <li class="listItems1">
         <div class="LoginSign">
@@ -70,7 +70,7 @@
 
   </nav>
 
-
+<!-- mobile navbar layout starts -->
 
   <div class="nav" id="MenuMobile">
     <div class="crosbtn">
@@ -81,12 +81,29 @@
     <div class="menu">
       <ul class="listmobile">
         <li class="listitems-mobile">
-          <a href="#" style="text-decoration: none; color: hsl(0, 0%, 41%); ">Features <img
-              src="images/icon-arrow-down.svg" alt="arrow"> </a>
+          <a href="#" style="text-decoration: none; color: hsl(0, 0%, 41%); " id="MobileFeatures">Features <img
+              src="images/icon-arrow-down.svg" alt="arrow" id="Marrow1"> </a>
+
+              <div class="mobileDropdown1 hide" id="MDropdown1">
+                <div class="dropdown1Items"><span class="dropdown"><img src="images/icon-todo.svg" alt="image"> Todo List</span>
+                </div>
+                <div class="dropdown1Items"><span class="dropdown"><img src="images/icon-calendar.svg" alt=""> Calender</span>
+                </div>
+                <div class="dropdown1Items"><span class="dropdown"><img src="images/icon-reminders.svg" alt=""> Reminder</span></div>
+                <div class="dropdown1Items"><span  class="dropdown"><img src="images/icon-planning.svg" alt=""> Planing</span></div>
+
+              </div>
         </li>
         <li class="listitems-mobile">
-          <a href="#" style="text-decoration: none; color: hsl(0, 0%, 41%); ">Company <img
-              src="images/icon-arrow-down.svg" alt="arrow"></a>
+          <a href="#" style="text-decoration: none; color: hsl(0, 0%, 41%); " id="MobileCompany">Company <img
+              src="images/icon-arrow-down.svg" alt="arrow" id="Marrow2"></a>
+              <div class="mobileDropdown2 hide" id="MDropdown2">
+                <div class="dropdown2Items"><span class="dropdown">History</span> </div>
+              <div class="dropdown2Items"><span class="dropdown">Our Team</span>  </div>
+                   <div class="dropdown2Items"><span class="dropdown">Blog</span> </div>
+              </div>
+
+              
 
         </li>
         <li class="listitems-mobile">
@@ -117,6 +134,7 @@
     </div>
 
   </div>
+  <!-- mobile navbar layout ends -->
 
   <div class="featuresDropdown clickDropdown" id="Dropdown1">
     <div  class="dropdown">

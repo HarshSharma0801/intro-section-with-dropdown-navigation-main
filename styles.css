@@ -32,9 +32,11 @@ body{
     padding: 20px 20px 20px 40px;
 
 }
+.Itemsdesk:hover{
+    color: black;
+}
 .listItems1{
     padding-left: 400px;
-
 }
 .listItems2{
     padding: 0px 20px 0px 40px;
@@ -117,9 +119,6 @@ body{
     transform: rotate(180deg);
 }
 
-.uparrow{
-    background-image: url(images/icon-arrow-up.svg);
-}
 
 
 
@@ -178,7 +177,10 @@ body{
     justify-content: flex-start;
 }
 .listitems-mobile{
-    padding: 20px 0 5px 15px;
+    padding: 20px 0 5px 0px;
+}
+.listitems-mobile:hover{
+    color: black;
 }
 .mobile-signup{
     display: flex;
@@ -198,6 +200,34 @@ body{
 }
 .companyDropdown{
     display: none;
+}
+.mobileDropdown1{
+    height: 200px;
+    width: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.mobileDropdown2{
+    height: 150px;
+    width: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.dropdown1Items{
+    padding: 10px;
+}
+.dropdown2Items{
+    padding: 10px;
+}
+.hide{
+    visibility: none;
+    display: none;
+}
+.rotate{
+    transform: rotate(180deg);
 }
 
     

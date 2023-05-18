@@ -3,6 +3,8 @@ const CrossButton = document.getElementById("cross");
 const Main = document.getElementById("MenuMobile");
 const features = document.getElementById("featuresBtn");
 const company = document.getElementById("companyBtn");
+const Mfeatures = document.getElementById("MobileFeatures");
+const Mcompany = document.getElementById("MobileCompany");
  
 
 toggleButton.addEventListener('click', function () {
@@ -45,4 +47,34 @@ company.addEventListener('click', function () {
         arrow2.classList.remove("rotate");
     }
 })
+
+
+Mfeatures.addEventListener('click', function () {
+    const list3 = document.getElementById("MDropdown1");
+    const Marrow1 = document.getElementById("Marrow1");
+    if(list3.classList.contains("hide")){
+        list3.classList.remove("hide");
+        Marrow1.classList.add("rotate");
+    }
+    else{
+        list3.classList.add("hide");
+        Marrow1.classList.remove("rotate");
+    }
+})
+
+
+Mcompany.addEventListener('click', function () {
+    const list4 = document.getElementById("MDropdown2");
+    const Marrow2 = document.getElementById("Marrow2");
+
+    if(list4.classList.contains("hide")){
+        list4.classList.remove("hide");
+        Marrow2.classList.add("rotate");
+    }
+    else{
+        list4.classList.add("hide");
+        Marrow2.classList.remove("rotate");
+    }
+})
+
 
