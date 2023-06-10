@@ -5,7 +5,7 @@ const features = document.getElementById("featuresBtn");
 const company = document.getElementById("companyBtn");
 const Mfeatures = document.getElementById("MobileFeatures");
 const Mcompany = document.getElementById("MobileCompany");
-//for web and mobile
+//for web and mobile M for mobile
  
 
 toggleButton.addEventListener('click', function () {
